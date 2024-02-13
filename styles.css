@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.nav_container {
+    text-align: right;
+    width: 100vw;
+    height: 20px;
+
+
+    
+}
+
+.nav_container li {
+    display: inline-block;
+    text-align:right;
+    margin-right: 30px;
+    
+}
+
+.nav-link {
+    color:#a09e9c;
+    text-decoration: none;
+}
+
+.bottom_nav_container {
+    height: 30px;
+    width: 100%;
+    display:inline-block;
+}
+
+
+
+.left_nav_bar li {
+    display:inline-block;
+    width: 50%;
+}
+
+
+
