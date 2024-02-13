@@ -28,14 +28,19 @@
     height: 30px;
     width: 100%;
     display:inline-block;
+    margin-left: 40px;
 }
-
-
 
 .left_nav_bar li {
     display:inline-block;
     width: 50%;
 }
 
+.left_nav_bar ul li {
+    list-style-type: none;
+}
 
-
+.left_nav_bar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
