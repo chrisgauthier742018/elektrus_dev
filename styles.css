@@ -32,17 +32,18 @@ body {
 
 .bottom_navbar_container {
     display:inline-block;
-    width: calc(100% - 100px);
+    width: calc(100% - 50px);
+    
     
 }
 
 .logo {
+    margin-top: 2px;
     display:inline-block
 }
 
 .bottom_navbar_right {
-    width: calc(100% - 50px)
-    display:inline-block;
+    display: inline-block;
     text-align:center;
     
 }
