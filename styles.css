@@ -7,6 +7,7 @@
     text-align: right;
     width: 100vw;
     height: 20px;
+    position: fixed;
 
 
     
@@ -19,28 +20,44 @@
     
 }
 
+
 .nav-link {
     color:#a09e9c;
     text-decoration: none;
 }
 
-.bottom_nav_container {
-    height: 30px;
+.bottom_navbar_container {
+    display:inline-block;
+    width: calc(100% - 100px);
+    
+}
+
+.logo {
+    display:inline-block
+}
+
+.bottom_navbar_right {
     width: 100%;
     display:inline-block;
-    margin-left: 40px;
+    text-align:center;
+    
 }
 
-.left_nav_bar li {
+.bottom_nav_item {
     display:inline-block;
-    width: 50%;
+  
 }
 
-.left_nav_bar ul li {
-    list-style-type: none;
-}
-
-.left_nav_bar ul li a {
+.bottom_nav_item a {
     text-decoration: none;
+    color: grey;
     text-transform: uppercase;
+    font-size: 20px;
+     margin: 50px 50px;
+
+  
+}
+
+.color_red {
+    color:red;
 }
