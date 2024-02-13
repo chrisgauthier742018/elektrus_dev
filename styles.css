@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body { 
+    color:#a09e9c;
+}
+
 .nav_container {
     text-align: right;
     width: 100vw;
