@@ -112,3 +112,8 @@ body {
 .color_red {
     color:red;
 }
+
+.background_image_container {
+    background-image: url(assets/images/banner.jpg);
+    height: 800px;
+}
