@@ -32,20 +32,19 @@ body {
 
 .bottom_navbar_container {
     display:inline-block;
-    margin-top: 20px;
-    margin-right: 50px;
+    width: calc(100% - 50px);
+    
+    
 }
 
 .logo {
-    margin-top: 10px;
-    display:inline-block;
-    text-align: left;
+    margin-top: 2px;
+    display:inline-block
 }
 
 .bottom_navbar_right {
-    margin-left: 300px;
     display: inline-block;
-    text-align:right;
+    text-align:center;
     
 }
 
@@ -62,6 +61,6 @@ body {
     margin: 50px 50px;
 }
 
-.style_red {
+.color_red {
     color:red;
 }
