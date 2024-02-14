@@ -1,3 +1,5 @@
+
+
 * {
     margin:0;
     padding: 0;
@@ -15,6 +17,54 @@ body {
 
 
     
+}
+
+.nav_container li {
+    display: inline-block;
+    text-align:right;
+    margin-right: 30px;
+    
+}
+
+
+.nav-link {
+    color:#a09e9c;
+    text-decoration: none;
+}
+
+.bottom_navbar_container {
+    display:inline-block;
+    width: calc(100% - 50px);
+    
+    
+}
+
+.logo {
+    margin-top: 2px;
+    display:inline-block
+}
+
+.bottom_navbar_right {
+    display: inline-block;
+    text-align:center;
+    
+}
+
+.bottom_nav_item {
+    display:inline-block;
+  
+}
+
+.bottom_nav_item a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 50px 50px;
+}
+
+.color_red {
+    color:red;
 }
 
 .nav_container li {
