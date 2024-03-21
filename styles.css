@@ -163,3 +163,67 @@ body {
     font-size: 40px;
     text-transform: uppercase;
 }
+.middle_section_container h1 {
+    color:black;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.middle_section {
+    width: 100vw;
+    height: 100vh;
+}
+.middle_section_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.services_card_container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.service_card_1 {
+    height: 40vh;
+    width: 400px;
+    background-color: grey;
+    border: 5px solid blue;
+    color: white;
+    
+    
+}
+
+.service_card_2 {
+    height: 40vh;
+    width: 400px;
+    background-color: grey;
+    border: 5px solid blue;
+    color: white;
+    grid-column: 2;
+}
+
+.service_card_3 {
+    height: 40vh;
+    width: 400px;
+    background-color: grey;
+    border: 5px solid blue;
+    color: white;
+    grid-column: 3;
+}
+
+
+.service_header {
+    font-size: 30px;
+
+}
+
+.service_description {
+    margin-top: 20px;
+}
