@@ -188,6 +188,7 @@ body {
     align-items: center;
 
 
+
 }
 
 .service_card_1 {
@@ -196,6 +197,9 @@ body {
     background-color: grey;
     border: 5px solid blue;
     color: white;
+    display: grid;
+    align-items: center;
+    text-align:center;
     
     
 }
@@ -206,7 +210,11 @@ body {
     background-color: grey;
     border: 5px solid blue;
     color: white;
-    grid-column: 2;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    
+    
 }
 
 .service_card_3 {
@@ -215,14 +223,13 @@ body {
     background-color: grey;
     border: 5px solid blue;
     color: white;
-    grid-column: 3;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    
+    
 }
 
-
-.service_header {
-    font-size: 30px;
-
-}
 
 .service_description {
     margin-top: 20px;
