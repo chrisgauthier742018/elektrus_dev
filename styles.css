@@ -191,19 +191,6 @@ body {
 
 }
 
-.service_card_1 {
-    height: 40vh;
-    width: 400px;
-    background-color: grey;
-    border: 5px solid blue;
-    color: white;
-    display: grid;
-    align-items: center;
-    text-align:center;
-    
-    
-}
-
 .service_card_2 {
     height: 40vh;
     width: 400px;

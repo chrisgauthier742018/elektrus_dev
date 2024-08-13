@@ -1,0 +1,59 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.header {
+    height: 30vh;
+    width: 100vw;
+    background-color: red;
+
+}
+
+.header h1 {
+    padding-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+    text-align:center;
+}
+
+.nav {
+    padding-right: 30px;
+    background-color: blue;
+    height: 50px;
+    display: grid;
+    justify-content: end;
+    align-items: center;
+}
+.nav li {
+    margin-top: 20px;
+    display: inline;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px;
+    
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    background-color: green;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.cell1, .cell2, .cell3 {
+    height: 40vh;
+    background-color: grey;
+    border: 5px solid blue;
+    color: white;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    
+    
+}
