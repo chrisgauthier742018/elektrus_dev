@@ -48,6 +48,10 @@ body {
     font-size: 5rem;
     color: grey;
 }
+
+.services h3 {
+    text-align:center;
+}
 .nav_container li {
     display: inline-block;
     text-align:right;
